@@ -1,4 +1,4 @@
 FROM nginx
 MAINTAINER azeem
 LABEL this is my first applicatin
-COPY /var/lib/jenkins/workspace/mtfirstjob/ .
+COPY index.html usr/share/nginx/html/
