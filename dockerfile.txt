@@ -1,0 +1,4 @@
+FROM inginx
+MAINTAINER azeem
+LABEL this is my first applicatin
+COPY . .
